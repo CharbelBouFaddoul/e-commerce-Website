@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Nike</title>
+   <!-- Link to css-->
+   <link rel="stylesheet" href="style.css">
+   <!-- Box icons -->
+   <link rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body onload="changeBg()">
+   <!-- Link to javascript file -->
+   <script src="index.js"></script>
+   <a name="top"></a>
+    <section class="bg1">
+      <div class="navbar">
+         <a href="index.html" class="logo"><img src="image/NikeLogo-White_1.png" alt="" width="110px" ></i></a>
+         <ul class="nav-item">
+            <li><a href="">Home</a></li>
+            <li><a href="" onclick="newarrival()">New arrival</a></li>
+            <li><a href="Product/index.html">Product</a></li>
+            <li><a href="contact us/index.html"> Contact us</a></li>
+         </ul>
+           <!-- Search box -->
+         <div id="search-box">
+            <input type="search" placeholder="Search here... ">
+         </div>
+         <div class="butom">
+            <i class='bx bx-search' id="search-icon" onclick="search()"></i>
+            <a href="#Totalprice"><i class='bx bx-cart-alt' id="cart-icon" onclick="Total()"><span id="Cart">0</span></i></a>
+            <a href="Login/index.html"><i class='bx bx-user' id="user-icon"></i></a>
+         </div>
+      </div>
+      <a href="#here">
+         <div class="down"></div>
+     </a>
+   </section>
+
+   <!-- Page 2 -->
+   <section class="page2">
+      <a id="here"></a>
+      <h2>Featured Products</h2>
+         <p>Summer Collection</p>
+         <br>
+      <section id="product1">
+         <div class="pro-box" onclick="Produit0()">
+            <div class="pro">
+               <img src="image/featured product/70_sb_chron_2.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>SB Chron 2</h5>
+                  <h4>$<span id="P0">65</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+
+         <div class="pro-box" onclick="Produit1()">
+            <div class="pro">
+               <img src="image/featured product/force.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Dunk Low Next Nature</h5>
+                  <h4>$<span id="P1">105</span> </h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+
+         <div class="pro-box" onclick="Produit2()">
+            <div class="pro">
+               <img src="image/featured product/jordnan.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Air Jordan XXXVI</h5>
+                  <h4>$<span id="P2">185</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+
+         <div class="pro-box" onclick="Produit3()">
+            <div class="pro">
+               <img src="image/featured product/lebron.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Sam's LeBron 19 x </h5>
+                  <h4>$<span id="P3">200</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+      
+      <section id="product1">
+         <div class="pro-box" onclick="Produit4()">
+            <div class="pro">
+               <img src="image/featured product/mid.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Air Jordan 1 Mid SE</h5>
+                  <h4>$<span id="P4">135</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+
+         <div class="pro-box" onclick="Produit5()">
+            <div class="pro">
+               <img src="image/featured product/move.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Air Jordan 1 Zoom Comfort</h5>
+                  <h4>$<span id="P5">140</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+
+         <div class="pro-box" onclick="Produit6()">
+            <div class="pro">
+               <img src="image/featured product/waw.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike Air Force 1 '07</h5>
+                  <h4>$<span id="P6">100</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+
+         <div class="pro-box" onclick="Produit7()">
+            <div class="pro">
+               <img src="image/featured product/zoom.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Air Jordan 1 Zoom Comfort</h5>
+                  <h4>$<span id="P7">140</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+
+      </section>
+   </section>
+   <br>
+      <!-- Footer -->
+    
+      <section class="footer">
+
+         <div class="share">
+            <a href="#" class="fab fa-facebook"></a>
+             <a href="#" class="fab fa-twitter"></a>
+             <a href="#" class="fab fa-instagram"></a>
+             <a href="#" class="fab fa-linkedin"></a>
+             <a href="#" class="fab fa-pinterest"></a>
+         </div>
+     
+         <div class="links">
+             <a href="#">Home</a>
+             <a href="#about">New Arrival</a>
+             <a href="Product/index.html">Product</a>
+             <a href="location/index.html">Contact Us</a>
+             <a href="Login/index.html">Login</a>
+         </div>
+         
+         <div class="created">Created by <span>Christ Nakhoul & Elio Ghrayeb & Charbel Faddoul</span> </div>
+     
+     </section>
+
+      <div id="totalP" onclick="Total()">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      
+      <div id="Product-Total">
+         <div id="NPro">
+            <p id="NPro">You have 0 product in your cart</p>
+         </div>
+  
+         <div id="Totalprice">
+            <p id="TotalPrice"></p>
+         </div>
+  
+         <div id="BuyProduct">
+            <button onclick="Buy()"><a href="#top">Buy</a></button>
+         </div>
+      </div>
+  
+</body>
+</html>

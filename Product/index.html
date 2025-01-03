@@ -1,0 +1,1108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Product</title>
+   <!-- Link to css-->
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="../style.css">
+   <!-- Box icons -->
+   <link rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   <!--link for icons-->
+   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+   <script src="index.js"></script>
+   <div class="navbar">
+      <a href="index.html" class="logo"><img src="../image/NikeLogo-White_1.png" alt="" width="110px" ></i></a>
+      <ul class="nav-item">
+         <li><a href="../index.html">Home</a></li>
+         <li><a href="#" onclick="newarrival()">New arrival</a></li>
+         <li><a href="#">Product</a></li>
+         <li><a href="../contact us/index.html"> Contact us</a></li>
+      </ul>
+        <!-- Search box -->
+      <div id="search-box">
+         <input type="search" placeholder="Search here... ">
+      </div>
+      <div class="butom">
+         <i class='bx bx-search' id="search-icon" onclick="search()"></i>
+         <a href="#Totalprice"><i class='bx bx-cart-alt' id="cart-icon" onclick="Total()"><span id="Cart">0</span></i></a>
+         <a href="../Login/index.html"><i class='bx bx-user' id="user-icon"></i></a>
+      </div>
+   </div>
+   <br><br><br> <br>
+
+
+   <!-- First Section -->
+   <h1 style="color:black;text-align:center;">Boots</h1>
+   <section id="product1">
+      <div class="pro-box" onclick="Produit0()">
+         <div class="pro">
+            <img src="../image/featured product/70_sb_chron_2.webp" alt="">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>SB Chron 2</h5>
+               <h4>$<span id="P0">65</span></h4>
+            </div>
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+
+      <div class="pro-box" onclick="Produit1()">
+         <div class="pro">
+            <img src="../image/featured product/force.webp" alt="">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Dunk Low Next Nature</h5>
+               <h4>$<span id="P1">105</span></h4>
+            </div>
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+
+      <div class="pro-box" onclick="Produit2()">
+         <div class="pro">
+            <img src="../image/featured product/jordnan.webp" alt="">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Air Jordan XXXVI</h5>
+               <h4>$<span id="P2">185</span></h4>
+            </div>
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+
+      <div class="pro-box" onclick="Produit3()">
+         <div class="pro">
+            <img src="../image/featured product/lebron.webp">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Sam's LeBron 19 x </h5>
+               <h4>$<span id="P3">200</span></h4>
+            </div>
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+   </section>
+   
+   <section id="product1">
+      <div class="pro-box" onclick="Produit4()">
+         <div class="pro">
+            <img src="../image/featured product/mid.webp">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Air Jordan 1 Mid SE</h5>
+               <h4>$<span id="P4">135</span></h4>
+            </div>
+            
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+
+      <div class="pro-box" onclick="Produit5()">
+         <div class="pro">
+            <img src="../image/featured product/move.webp">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Air Jordan 1 Zoom Comfort</h5>
+               <h4>$<span id="P5">140</span></h4>
+            </div>
+            
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+
+      <div class="pro-box" onclick="Produit6()">
+         <div class="pro">
+            <img src="../image/featured product/waw.webp">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Nike Air Force 1 '07</h5>
+               <h4>$<span id="P6">100</span></h4>
+            </div>
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+
+      <div class="pro-box" onclick="Produit7()">
+         <div class="pro">
+            <img src="../image/featured product/zoom.webp">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Air Jordan 1 Zoom Comfort</h5>
+               <h4>$<span id="P7">140</span></h4>
+            </div>
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+   </section>
+
+   <!-- Seconde Section -->
+   
+   <h1 style="color:black;text-align:center;">Mens Tops & T-Shirts</h1>
+   <section id="product1">
+      <div class="pro-box" onclick="Produit0()">
+         <div class="pro">
+            <img src="../image/Product/t-shirt/s21.webp" alt="">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Nike Sportwear city made</h5>
+               <h4>$<span id="P0">65</span></h4>
+            </div>
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+
+      <div class="pro-box" onclick="Produit1()">
+         <div class="pro">
+            <img src="../image/Product/t-shirt/s22.webp" alt="">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Nike Sportwear tend Max 90</h5>
+               <h4>$<span id="P1">105</span> </h4>
+            </div>
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+
+      <div class="pro-box" onclick="Produit2()">
+         <div class="pro">
+            <img src="../image/Product/t-shirt/s23.webp" alt="">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Nike sport wear club</h5>
+               <h4>$<span id="P2">185</span></h4>
+            </div>
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+
+      <div class="pro-box" onclick="Produit3()">
+         <div class="pro">
+            <img src="../image/Product/t-shirt/s24.webp">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Nike Sportwear </h5>
+               <h4>$<span id="P3">200</span></h4>
+            </div>
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+   </section>
+   
+   <section id="product1">
+      <div class="pro-box" onclick="Produit4()">
+         <div class="pro">
+            <img src="../image/Product/t-shirt/s25.webp">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Nike yoga Dri-Fit</h5>
+               <h4>$<span id="P4">135</span></h4>
+            </div>
+            
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+
+      <div class="pro-box" onclick="Produit5()">
+         <div class="pro">
+            <img src="../image/Product/t-shirt/s26.webp">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Nike Dri-fit</h5>
+               <h4>$<span id="P5">140</span></h4>
+            </div>
+            
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+
+      <div class="pro-box" onclick="Produit6()">
+         <div class="pro">
+            <img src="../image/Product/t-shirt/s27.webp">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Jordan Brand</h5>               
+               <h4>$<span id="P6">100</span></h4>
+            </div>
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+
+      <div class="pro-box" onclick="Produit7()">
+         <div class="pro">
+            <img src="../image/Product/t-shirt/s28.webp">
+            <div class="cles">
+               <span>Nike</span>
+               <h5>Nike Sportwear</h5>
+               <h4>$<span id="P7">140</span></h4>
+            </div>
+            <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+         </div>
+      </div>
+   </section>
+    
+   <!-- ThirD Section -->
+   
+      <h1 style="color:black;text-align:center;">Hoodies for Men</h1>
+      <section id="product1">
+         <div class="pro-box" onclick="Produit0()">
+            <div class="pro">
+               <img src="../image/Product/hoodies/s31.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike Sportwear </h5>
+                  <h4>$<span id="P0">65</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit1()">
+            <div class="pro">
+               <img src="../image/Product/hoodies/s32.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike Sportwear club</h5>
+                  <h4>$<span id="P1">105</span> </h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit2()">
+            <div class="pro">
+               <img src="../image/Product/hoodies/s33.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike Yoga Dri-fit</h5>
+                  <h4>$<span id="P2">185</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit3()">
+            <div class="pro">
+               <img src="../image/Product/hoodies/s34.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike yoga </h5>
+                  <h4>$<span id="P3">200</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+      
+      <section id="product1">
+         <div class="pro-box" onclick="Produit4()">
+            <div class="pro">
+               <img src="../image/Product/hoodies/s35.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike Dri-fit Sport clash</h5>
+                  <h4>$<span id="P4">135</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit5()">
+            <div class="pro">
+               <img src="../image/Product/hoodies/s36.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike Dri-fit Sport clash</h5>
+                  <h4>$<span id="P5">140</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit6()">
+            <div class="pro">
+               <img src="../image/Product/hoodies/s37.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportwear club fleece</h5>
+                  <h4>$<span id="P6">100</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit7()">
+            <div class="pro">
+               <img src="../image/Product/hoodies/s38.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportwear club</h5>
+                  <h4>$<span id="P7">140</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+
+
+      <!-- Forth Section -->
+      <h1 style="color:black;text-align:center;">Mens Pants & Tights</h1>
+      <section id="product1">
+         <div class="pro-box" onclick="Produit0()">
+            <div class="pro">
+               <img src="../image/Product/pants/s41.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportwear club fleece</h5>
+                  <h4>$<span id="P0">65</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit1()">
+            <div class="pro">
+               <img src="../image/Product/pants/s42.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportwear club</h5>
+                  <h4>$<span id="P1">105</span> </h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit2()">
+            <div class="pro">
+               <img src="../image/Product/pants/s43.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear essentials</h5>
+                  <h4>$<span id="P2">185</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit3()">
+            <div class="pro">
+               <img src="../image/Product/pants/s44.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike Sportswear Essentials</h5>
+                  <h4>$<span id="P3">200</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+      
+      <section id="product1">
+         <div class="pro-box" onclick="Produit4()">
+            <div class="pro">
+               <img src="../image/Product/pants/s45.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike yoga Dri-fit</h5>
+                  <h4>$<span id="P4">135</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit5()">
+            <div class="pro">
+               <img src="../image/Product/pants/s46.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike Dri-fit flex</h5>
+                  <h4>$<span id="P5">140</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit6()">
+            <div class="pro">
+               <img src="../image/Product/pants/s47.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear tech fleece</h5>
+                  <h4>$<span id="P6">100</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit7()">
+            <div class="pro">
+               <img src="../image/Product/pants/s48.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear tech fleece</h5>
+                  <h4>$<span id="P7">140</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+
+
+      <!-- Fifth Section -->
+      <h1 style="color:black;text-align:center;">New arrival Boots</h1>
+      <section id="product1">
+         <div class="pro-box" onclick="Produit0()">
+            <div class="pro">
+               <img src="../image/featured product/70_sb_chron_2.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>SB Chron 2</h5>
+                  <h4>$<span id="P0">65</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit1()">
+            <div class="pro">
+               <img src="../image/featured product/force.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Dunk Low Next Nature</h5>
+                  <h4>$<span id="P1">105</span> </h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit2()">
+            <div class="pro">
+               <img src="../image/featured product/jordnan.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Air Jordan XXXVI</h5>
+                  <h4>$<span id="P2">185</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit3()">
+            <div class="pro">
+               <img src="../image/featured product/lebron.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Sam's LeBron 19 x </h5>
+                  <h4>$<span id="P3">200</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+      
+      <section id="product1">
+         <div class="pro-box" onclick="Produit4()">
+            <div class="pro">
+               <img src="../image/featured product/mid.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Air Jordan 1 Mid SE</h5>
+                  <h4>$<span id="P4">135</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit5()">
+            <div class="pro">
+               <img src="../image/featured product/move.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Air Jordan 1 Zoom Comfort</h5>
+                  <h4>$<span id="P5">140</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit6()">
+            <div class="pro">
+               <img src="../image/featured product/waw.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike Air Force 1 '07</h5>
+                  <h4>$<span id="P6">100</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit7()">
+            <div class="pro">
+               <img src="../image/featured product/zoom.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Air Jordan 1 Zoom Comfort</h5>
+                  <h4>$<span id="P7">140</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+
+      <!-- Section Six  -->
+      <h1 style="color:black;text-align:center;">Mens Jackets & Vests</h1>
+      <section id="product1">
+         <div class="pro-box" onclick="Produit0()">
+            <div class="pro">
+               <img src="../image/Product/jacket/s61.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear</h5>
+                  <h4>$<span id="P0">65</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit1()">
+            <div class="pro">
+               <img src="../image/Product/jacket/s62.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear style</h5>
+                  <h4>$<span id="P1">105</span> </h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit2()">
+            <div class="pro">
+               <img src="../image/Product/jacket/s63.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike strom-fit</h5>
+                  <h4>$<span id="P2">185</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit3()">
+            <div class="pro">
+               <img src="../image/Product/jacket/s64.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike strom-fit victory </h5>
+                  <h4>$<span id="P3">200</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+      
+      <section id="product1">
+         <div class="pro-box" onclick="Produit4()">
+            <div class="pro">
+               <img src="../image/Product/jacket/s65.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike repel tiger woods</h5>
+                  <h4>$<span id="P4">135</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit5()">
+            <div class="pro">
+               <img src="../image/Product/jacket/s66.webp">
+               <div class="cles">
+                  <span>Nike</span>NikAir Jordan 1 Zoom Comfort</h5>
+                  <h4>Nike therma-fit adv repel</h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit6()">
+            <div class="pro">
+               <img src="../image/Product/jacket/s67.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike Air Force 1 '07</h5>
+                  <h4>Nike wild run windrunnerspan></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit7()">
+            <div class="pro">
+               <img src="../image/Product/jacket/s68.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Air Jordan 1 Zoom Comfort</h5>
+                  <h4>Nike gore-tex infinium</h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+
+      <!-- Section seven -->
+
+      <h1 style="color:black;text-align:center;">Mens & Women Matching Sets</h1>
+      <section id="product1">
+         <div class="pro-box" onclick="Produit0()">
+            <div class="pro">
+               <img src="../image/Product/matching/s71.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear</h5>
+                  <h4>$<span id="P0">65</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit1()">
+            <div class="pro">
+               <img src="../image/Product/matching/s72.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear club</h5>
+                  <h4>$<span id="P1">105</span> </h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit2()">
+            <div class="pro">
+               <img src="../image/Product/matching/s73.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear essentials</h5>
+                  <h4>$<span id="P2">185</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit3()">
+            <div class="pro">
+               <img src="../image/Product/matching/s74.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear essentials</h5>
+                  <h4>$<span id="P3">200</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+      
+      <section id="product1">
+         <div class="pro-box" onclick="Produit4()">
+            <div class="pro">
+               <img src="../image/Product/matching/s711.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear</h5>
+                  <h4>$<span id="P4">135</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit5()">
+            <div class="pro">
+               <img src="../image/Product/matching/s722.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear</h5>
+                  <h4>$<span id="P5">140</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit6()">
+            <div class="pro">
+               <img src="../image/Product/matching/s733.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear therma-fit adv</h5>
+                  <h4>$<span id="P6">100</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit7()">
+            <div class="pro">
+               <img src="../image/Product/matching/s744.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear therma-fit adv</h5>
+                  <h4>$<span id="P7">140</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+
+      <!-- Section eight -->
+      <h1 style="color:black;text-align:center;">Mens swimwear</h1>
+      <section id="product1">
+         <div class="pro-box" onclick="Produit0()">
+            <div class="pro">
+               <img src="../image/Product/swim-wear/s81.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike swim-wear</h5>
+                  <h4>$<span id="P0">65</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit1()">
+            <div class="pro">
+               <img src="../image/Product/swim-wear/s82.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike wave stripe</h5>
+                  <h4>$<span id="P1">105</span> </h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit2()">
+            <div class="pro">
+               <img src="../image/Product/swim-wear/s83.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike adventure</h5>
+                  <h4>$<span id="P2">185</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit3()">
+            <div class="pro">
+               <img src="../image/Product/swim-wear/s84.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike jdi fade</h5>
+                  <h4>$<span id="P3">200</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+      
+      <section id="product1">
+         <div class="pro-box" onclick="Produit4()">
+            <div class="pro">
+               <img src="../image/Product/swim-wear/s85.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike vibe</h5>
+                  <h4>$<span id="P4">135</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit5()">
+            <div class="pro">
+               <img src="../image/Product/swim-wear/s86.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike jdi stack</h5>
+                  <h4>$<span id="P5">140</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit6()">
+            <div class="pro">
+               <img src="../image/Product/swim-wear/s87.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike collage</h5>
+                  <h4>$<span id="P6">100</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit7()">
+            <div class="pro">
+               <img src="../image/Product/swim-wear/s88.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike converge</h5>
+                  <h4>$<span id="P7">140</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+
+      <!-- Section Nine -->
+      <h1 style="color:black;text-align:center;">Mens Underwear</h1>
+      <section id="product1">
+         <div class="pro-box" onclick="Produit0()">
+            <div class="pro">
+               <img src="../image/Product/underwear/s91.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike dri-fit essentials micro</h5>
+                  <h4>$<span id="P0">65</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit1()">
+            <div class="pro">
+               <img src="../image/Product/underwear/s92.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike luxe cotton modal</h5>
+                  <h4>$<span id="P1">105</span> </h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit2()">
+            <div class="pro">
+               <img src="../image/Product/underwear/s93.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike dri-fit cotton stretch</h5>
+                  <h4>$<span id="P2">185</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit3()">
+            <div class="pro">
+               <img src="../image/Product/underwear/s94.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike dri-fit ultra-stretch micro </h5>
+                  <h4>$<span id="P3">200</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+      
+      <section id="product1">
+         <div class="pro-box" onclick="Produit4()">
+            <div class="pro">
+               <img src="../image/Product/underwear/s95.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike dri-fit elite micro</h5>
+                  <h4>$<span id="P4">135</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit5()">
+            <div class="pro">
+               <img src="../image/Product/underwear/s96.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike dri-fit ultra-stretch micro</h5>
+                  <h4>$<span id="P5">140</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit6()">
+            <div class="pro">
+               <img src="../image/Product/underwear/s97.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike essentials micro</h5>
+                  <h4>$<span id="P6">100</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit7()">
+            <div class="pro">
+               <img src="../image/Product/underwear/s98.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike flex micro</h5>
+                  <h4>$<span id="P7">140</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+
+      <!-- Section Ten -->
+      <h1 style="color:black;text-align:center;">Mens Polos</h1>
+      <section id="product1">
+         <div class="pro-box" onclick="Produit0()">
+            <div class="pro">
+               <img src="../image/Product/polo/s101.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear</h5>
+                  <h4>$<span id="P0">65</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit1()">
+            <div class="pro">
+               <img src="../image/Product/polo/s102.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>The Nike polo</h5>
+                  <h4>$<span id="P1">105</span> </h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit2()">
+            <div class="pro">
+               <img src="../image/Product/polo/s103.webp" alt="">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike dri-fit vidtory</h5>
+                  <h4>$<span id="P2">185</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit3()">
+            <div class="pro">
+               <img src="../image/Product/polo/s104.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike dri-fit adv tiger woods </h5>
+                  <h4>$<span id="P3">200</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+      
+      <section id="product1">
+         <div class="pro-box" onclick="Produit4()">
+            <div class="pro">
+               <img src="../image/Product/polo/s105.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>NikeCourt dri-fit advantage</h5>
+                  <h4>$<span id="P4">135</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit5()">
+            <div class="pro">
+               <img src="../image/Product/polo/s106.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike dri-fit vitory</h5>
+                  <h4>$<span id="P5">140</span></h4>
+               </div>
+               
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit6()">
+            <div class="pro">
+               <img src="../image/Product/polo/s107.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>The Nike polo</h5>
+                  <h4>$<span id="P6">100</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+   
+         <div class="pro-box" onclick="Produit7()">
+            <div class="pro">
+               <img src="../image/Product/polo/s108.webp">
+               <div class="cles">
+                  <span>Nike</span>
+                  <h5>Nike sportswear</h5>
+                  <h4>$<span id="P7">140</span></h4>
+               </div>
+               <a href="#"><i class='bx bx-cart-alt cart'></i></a>
+            </div>
+         </div>
+      </section>
+   
+   
+   <!-- Total -->
+
+   <div id="totalP" onclick="Total()">
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    
+    <div id="Product-Total">
+       <div id="NPro">
+          <p id="NPro">You have 0 product in your cart</p>
+       </div>
+
+       <div id="Totalprice">
+          <p id="TotalPrice"></p>
+       </div>
+
+       <div id="BuyProduct">
+          <button onclick="Buy()" reload><a href="#top">Buy</a></button>
+       </div>
+    </div>
+</body>
+</html>
